@@ -1,0 +1,88 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   font-family: Tahoma , Arial;
+}
+
+
+.repos-continer{
+   width: 800px;
+   background-color: #f6f6f6;
+   margin: 10px auto;
+}
+.repos-continer .get-repos{
+   display: flex;
+   /* height: 150px;
+   justify-content: center;
+   align-items: center; */
+   background-color:#eee;
+   padding: 20px;
+}
+
+.repos-continer .get-repos input{
+   padding: 15px 20px;
+   height: 54px;
+   border: none;
+   width: 100%;
+   font-size: 18px;
+}
+
+.repos-continer .get-repos input:focus{
+   outline: 3px solid #f44336;
+}
+.repos-continer .get-repos input::placeholder{
+   color: #777;
+   transition: 0.3s;
+}
+.repos-continer .get-repos input:focus::placeholder{
+   opacity: 0.4;
+}
+.repos-continer .get-repos .get-button{
+   height: 54px;
+   line-height: 54px;
+   text-align: center;
+   width: 140px;
+   background-color: #f44336;
+   color: #fff;
+   margin-left: 15px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+.repos-continer .show-data{
+   padding: 20px;
+   background-color: #e0e0e0;
+}
+
+
+
+.repos-continer .show-data>div {
+   display: flex;
+   justify-content: space-between;
+   background-color: #fff;
+   height: 60px;
+   margin: 5px;
+   line-height: 40px;
+   padding: 10px;
+   font-weight: bold;
+}
+.repos-continer .show-data>div a{
+   text-decoration: none;
+   background-color: rgb(24, 68, 248);
+   color: white;
+   border-radius: 6px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-weight: bold;
+
+}
+
+
+.repos-continer .show-data>div span{
+   color: grey;
+   font-weight: 600;
+   font-size: 13px;
+}
